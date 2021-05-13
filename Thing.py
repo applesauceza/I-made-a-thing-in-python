@@ -187,8 +187,7 @@ import zlib
 import zoneinfo
 print(' ')
 temp = tempfile.gettempdir()
-Loop=1
-while(Loop>0):
+while(1>0):
 	Command = input(">>>")
 	try:
 		exec(Command)
