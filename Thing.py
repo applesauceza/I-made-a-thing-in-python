@@ -191,5 +191,5 @@ while(1>0):
 	Command = input(">>>")
 	try:
 		exec(Command)
-	except:
-		print('Syntax error or invalid command')
+	except Exception as e:
+		print(str(e))
